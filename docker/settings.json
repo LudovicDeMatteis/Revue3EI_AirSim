@@ -1,0 +1,21 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings_json.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Car",//"Multirotor",
+  "ClockSpeed": 1.0,
+  "SpeedUnitFactor": 1.0,
+  "SpeedUnitLabel": "m/s"
+  /*"Vehicles": {
+    "SimpleFlight": {
+      "VehicleType": "SimpleFlight",
+      "DefaultVehicleState": "Armed",
+      "EnableCollisionPassthrogh": false,
+      "EnableCollisions": true,
+      "AllowAPIAlways": true,
+      "RC": {
+        "RemoteControlID": 0,
+        "AllowAPIWhenDisconnected": false
+      }
+    }
+  }*/
+}
