@@ -28,13 +28,16 @@
 # Lancement de la simulation
 Le dossier Unreal contient deux environnements appellés **'Circuit Rond'** et **'Circuit Test'**. Chacun de ces environnements peut être lancé en suivant la même procédure.
 Il est possible de procéder de deux manières. 
-* Ouvrir le fichier **Blocks.uproject** ouvre le projet dans l'éditeur Unreal Engine 4 et permet la modification du circuit.
-* Exécuter le fichier **WindowsNoEditor/Blocks.exe** lance la simulation sans éditeur. Cela permet d'améliorer les performances.
+* Ouvrir le fichier `Blocks.uproject` ouvre le projet dans l'éditeur Unreal Engine 4 et permet la modification du circuit.
+* Exécuter le fichier `WindowsNoEditor/Blocks.exe` lance la simulation sans éditeur. Cela permet d'améliorer les performances.
 
 # Exécution des scripts python
-Les différents scripts Python utilisés se trouvent dans le dossier 'PythonClient/dqn_car'.
+Les différents scripts Python utilisés se trouvent dans le dossier `PythonClient/dqn_car`.
 ## Phase d'apprentissage
-L'apprentissage est lancé par le script 'dqn_car.py'. Deux réglages sont possibles, via une variable interne du script. 
+L'apprentissage est lancé par le script `dqn_car.py`. Deux réglages sont possibles, via une variable interne du script. 
 * Si l'on règle `Load = False` alors un nouveau modèle est créé avant le démarage de l'entrainement
-* Si l'on règle `Load = True` alors un ancien modèle est chargé selon le chemin d'accès spécifié. L'entrainement continu alors sur ce modèle
+* Si l'on règle `Load = True` alors un ancien modèle est chargé selon le chemin d'accès spécifié. L'entraînement continue alors sur ce modèle
+
 ## Phase d'inférence
+
+# Modèles pré-entraînés
